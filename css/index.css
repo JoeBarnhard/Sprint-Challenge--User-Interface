@@ -57,6 +57,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
+    display:flex;
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -80,7 +81,8 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
+    /* display:flex; */
+    width: 25%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -101,12 +103,12 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
-    color: white;
+    color: orange;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,3 +146,52 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.box .box1 { color: teal;
+}
+.box2 { color: gold; }
+.box3  {color:  cadetblue; }
+ box4: coral
+ box5: crimson
+ box6: forestgreen
+ box7: darkorchid
+ box8: hotpink
+ box9: indigo
+ box10: dodgerblue
+
+ nav {
+     display:flex;
+     min-height: 5vh;
+ }
+ .logo {
+    display:flex;
+    align-items:baseline;
+    justify-content:flex-start;
+ }
+
+ nav ul {
+    display:flex;
+     list-style-type:none;
+     padding:0;
+}
+li{
+    display:flex;
+}
+nav a {
+    font-size: .80em;
+    justify-content:center;
+    flex-wrap:nowrap;
+    text-decoration:none;
+    text-align:center;
+    color:gray;
+    display:block;
+    padding:50px;
+}
+nav a:hover {
+    color:#CC0000;
+} 
+
+.jumbo {
+    margin-bottom: 25px;
+}
+
